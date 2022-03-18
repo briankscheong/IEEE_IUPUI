@@ -2,6 +2,7 @@
   --green: #9fe2bf;
   --white: #ffffff;
   --black: #000000;
+  --cyan: #00FFFF;
 }
 
 * {
@@ -29,7 +30,7 @@ li {
 }
 
 .light-theme {
-  --bg: var(--green);
+  --bg: var(--cyan);
   --fontColor: var(--black);
   --btnBg: var(--black);
   --btnFontColor: var(--white);
@@ -37,7 +38,7 @@ li {
 
 .dark-theme {
   --bg: var(--black);
-  --fontColor: var(--green);
+  --fontColor: var(--cyan);
   --btnBg: var(--white);
   --btnFontColor: var(--black);
 }
