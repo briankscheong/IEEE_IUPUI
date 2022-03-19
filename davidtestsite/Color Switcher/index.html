@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple website</title>
+    <title>IEEE Chapter IUPUI</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body class="light-theme">
-    <h1>Task List</h1>
+    <h1>IEEE Chapter IUPUI</h1>
     <p id="msg">Current tasks:</p>
     <ul>
       <li class="list">Add visual styles</li>
@@ -20,5 +20,42 @@
     </div>
     <script src="app.js"></script>
     <noscript>Please enable javascript!</noscript>
+
+    <div>
+      <h2>Interested to be a part of us? Fill out the form below and let the journey begin!</h1>
+      <form>
+        <label for="Full Name">Full Name</label>
+        <br>
+        <input type="text" placeholder = "Name" onclick="this.value=''; this.style.color='#000'">
+        <br>
+        <br>
+        <label for="Email">Email</label>
+        <br>
+        <input type="email" onclick="this.value=''; this.style.color='#000'">
+        <br>
+        <br>
+        <label for="Major">Major</label>
+        <br>
+        <select onclick="this.value=''; this.style.color='#000'">
+          <option value="" disabled selected>--Select--</option>
+          <option value="">Computer Engineering</option>
+          <option value="">Electrical Engineering</option>
+          <option value="">Computer Science</option>
+          <option value="">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="Message">Introduce yourself:</label>
+        <br>
+        <textarea name="" cols="50" rows="5" placeholder="About 100 words" onclick="this.value=''; this.style.color='#000'"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+  
+  
+      </form>
+
+    </div>
+    
   </body>
 </html>
